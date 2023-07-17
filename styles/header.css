@@ -1,0 +1,123 @@
+header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  top: -8px;
+  align-items: center;
+  height: 63px;
+  justify-content: space-between;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 193px;
+  margin-right: 148px;
+}
+
+.left-section img {
+  height: 35px;
+  width: 35px;
+}
+
+.left-section input {
+  margin-left: 10px;
+  padding: 8px 38px;
+  background-color: #eef3f8;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 464px;
+  height: 63px;
+  padding-right: 21px;
+  border-right: 1px solid #e0e0e0;
+}
+
+nav img {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  background-color: white;
+  filter: opacity(0.5);
+  cursor: pointer;
+}
+
+img:hover {
+  filter: none;
+}
+
+nav p {
+  font-size: 10px;
+}
+
+.home p {
+  margin-left: 4px;
+}
+
+.mynetwork p {
+  margin-left: -9px;
+}
+
+.jobs p {
+  margin-left: 7px;
+}
+
+.message p {
+  margin-left: -3px;
+}
+
+.notification p {
+  margin-left: -8px;
+}
+
+.my p {
+  margin-left: 9px;
+}
+
+.home p,
+.jobs p,
+.message p,
+.mynetwork p,
+.notification p,
+.my p {
+  margin-top: 2px;
+}
+
+
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-right: 222px;
+}
+
+.forbusiness img {
+  height: 35px;
+  width: 35px;
+  filter: opacity(0.5);
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.bus:hover {
+  filter: none;
+}
+
+.forbusiness p {
+  margin-top: 2px;
+  font-size: 10px;
+  margin-left: -11px;
+}
+
+.right-section a {
+  width: 92px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: rgb(145, 89, 7);
+}
